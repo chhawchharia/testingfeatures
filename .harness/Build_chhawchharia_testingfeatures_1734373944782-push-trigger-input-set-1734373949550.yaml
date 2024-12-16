@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chhawchharia_testingfeatures_1734373944782-push-trigger-input-set
+  identifier: Build_chhawchharia_testingfeatures_1734373944782pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythonpipelinesamples
+  pipeline:
+    identifier: Build_chhawchharia_testingfeatures_1734373944782
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
